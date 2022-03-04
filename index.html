@@ -63,6 +63,36 @@
         
       <!-- List of publications -->
       <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+         <!-- The Dual Form of Neural Networks Revisited -->
+         <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+            <div class="one">
+                <img src="images/dual_form.svg" width="160">
+            </div>
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://arxiv.org/abs/2202.05798">
+              <papertitle>The Dual Form of Neural Networks Revisited: Connecting Test Time Predictions to Training Patterns via Spotlights of Attention</papertitle>
+            </a>
+            <br>
+            <a href="http://people.idsia.ch/~kazuki/">Kazuki Irie*</a>,
+            <strong>Róbert Csordás*</strong>,
+            <a href="http://people.idsia.ch/~juergen/">Jürgen Schmidhuber</a>
+            <br>
+              <em>arXiv preprint, 2022</em> 
+            <br>
+            <a href="https://arxiv.org/pdf/2202.05798.pdf">pdf</a> /
+            <a href="https://github.com/robertcsordas/linear_layer_as_attention">code</a> /
+            <a href="data/dual_form.bib">bib</a>
+            <p>
+              Linear layers in neural networks (NNs) trained by gradient descent can be expressed as a key-value memory system which stores all training datapoints and the initial weights, and
+              produces outputs using unnormalised dot attention over the entire training experience. While this has been technically known since the ’60s, no prior work has effectively studied the
+              operations of NNs in such a form. We conduct experiments on this dual formulation and study the potential of directly visualising how an NN makes use of training patterns at test time,
+              as well as its limitations.
+            </p>
+          </td>
+        </tr> 
+
         <!-- Neural Data Router -->
         <tr>
           <td style="padding:20px;width:25%;vertical-align:middle">
