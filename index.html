@@ -98,6 +98,33 @@
           </td>
         </tr> 
 
+        <!-- A Modern Self-Referential Weight Matrix -->
+        <tr>
+          <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/srwm.svg" width="160">
+          </td>
+          <td style="padding:20px;width:75%;vertical-align:middle">
+            <a href="https://openreview.net/forum?id=lVUGfLpNpCF">
+              <papertitle>A Modern Self-Referential Weight Matrix That Learns to Modify Itself</papertitle>
+            </a>
+            <br>
+            <a href="http://people.idsia.ch/~kazuki/">Kazuki Irie</a>,
+            <a href="https://ischlag.github.io/">Imanol Schlag</a>,
+            <strong>Róbert Csordás</strong>,
+            <a href="http://people.idsia.ch/~juergen/">Jürgen Schmidhuber</a>
+            <br>
+              <em>International Conference on Machine Learning (ICML), 2022</em> 
+            <br>
+            <a href="https://openreview.net/pdf?id=lVUGfLpNpCF">pdf</a> /
+            <a href="https://github.com/IDSIA/modern-srwm">code</a> /
+            <a href="data/modern_self_ref.bib">bib</a>
+            <br>
+            <p>
+              The weight matrix (WM) of a neural network (NN) is its program which remains fixed after training. The WM or program of a self-referential NN, however, can keep rapidly modifying all of itself during runtime. In principle, such NNs are capable of recursive self-improvement. Here we propose a scalable self-referential WM (SRWM) that uses self-generated training patterns, outer products and the delta update rule to modify itself.
+            </p>
+          </td>
+        </tr> 
+
         <!-- Neural Data Router -->
         <tr>
           <td style="padding:20px;width:25%;vertical-align:middle">
@@ -118,6 +145,8 @@
             <br>
             <a href="https://arxiv.org/pdf/2110.07732.pdf">pdf</a> /
             <a href="https://github.com/robertcsordas/ndr">code</a> /
+            <a href="https://docs.google.com/presentation/d/1CdcyU2-PpztTSaiRbXEI3xBYUtTycc6qv5xGdl8CIOI/edit?usp=sharing">slides</a> /
+            <a href="data/ndr_poster.pdf">poster</a> /
             <a href="data/ndr.bib">bib</a>
             <p>
               We look at Transformers as a system for routing relevant information to the right node/operation at the right time in the grid represented by its column.
@@ -279,32 +308,6 @@
             <br>
             <p>
               We present our critical observations on the iWildCam and FMoW datasets of the recently released WILDS benchmark. We show that (1) Conducting separate cross-validation for each evaluation metric is crucial for both datasets, (2) A weak correlation between validation and test performance might make model development difficult for iWildCam, (3) Minor changes in the training of hyper-parameters improve the baseline by a relatively large margin, (4) There is a strong correlation between certain domains and certain target labels.
-            </p>
-          </td>
-        </tr> 
-
-        <!-- A Modern Self-Referential Weight Matrix -->
-        <tr>
-          <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/srwm.svg" width="160">
-          </td>
-          <td style="padding:20px;width:75%;vertical-align:middle">
-            <a href="https://openreview.net/forum?id=lVUGfLpNpCF">
-              <papertitle>A Modern Self-Referential Weight Matrix That Learns to Modify Itself</papertitle>
-            </a>
-            <br>
-            <a href="http://people.idsia.ch/~kazuki/">Kazuki Irie</a>,
-            <a href="https://ischlag.github.io/">Imanol Schlag</a>,
-            <strong>Róbert Csordás</strong>,
-            <a href="http://people.idsia.ch/~juergen/">Jürgen Schmidhuber</a>
-            <br>
-              <em>NeurIPS Deep RL Workshop, 2021</em>
-            <br>
-            <a href="https://openreview.net/pdf?id=lVUGfLpNpCF">pdf</a> /
-            <a href="https://github.com/IDSIA/modern-srwm">code</a>
-            <br>
-            <p>
-              The weight matrix (WM) of a neural network (NN) is its program which remains fixed after training. The WM or program of a self-referential NN, however, can keep rapidly modifying all of itself during runtime. In principle, such NNs are capable of recursive self-improvement. Here we propose a scalable self-referential WM (SRWM) that uses self-generated training patterns, outer products and the delta update rule to modify itself.
             </p>
           </td>
         </tr> 
